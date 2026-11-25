@@ -1,0 +1,12 @@
+02516sh
+watch -n 1 nvidia-smi
+htop
+CUDA_VISIBLE_DEVICES=1 python i_can_even_run_it_on_a_gpu_that_i_select_wow.py
+bsub -app c02516_1g.10gb < jobscript.sh
+
+tmux new -s kalo
+tmux a -t kalo
+02516
+
+
+/dtu/datasets1/02516
