@@ -1,2 +1,6 @@
 .DS_Store
 6b07465763d33d0cff221a89/
+outputs/
+__pycache__/
+*.pyc
+.pytest_cache/
